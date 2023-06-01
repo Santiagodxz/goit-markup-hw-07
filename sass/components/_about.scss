@@ -1,0 +1,26 @@
+.about {
+  padding-top: 94px;
+
+  .about__container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .about__boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .about__boxes-icon {
+    width: 270px;
+  }
+
+  .clabout__boxes-tittle {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 16px;
+  }
+}
