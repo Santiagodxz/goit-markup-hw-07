@@ -1,8 +1,5 @@
 .studio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flex(center, center, column);
   height: 600px;
   background-color: #c4c4c4;
   background-image: linear-gradient(

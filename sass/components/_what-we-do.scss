@@ -14,9 +14,7 @@
   }
 
   .WhatWeDo__container {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+    @include container;
   }
 
   .WhatWeDo__content {
@@ -26,9 +24,7 @@
   }
 
   .WhatWeDo__bgDescription {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     position: absolute;
     bottom: 0px;
     background-color: rgba(47, 48, 58, 0.8);

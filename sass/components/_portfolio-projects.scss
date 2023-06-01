@@ -2,9 +2,7 @@
   padding: 94px 0;
 
   .projects__container {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+    @include container;
   }
 
   .projects__content {
@@ -26,9 +24,7 @@
   }
 
   .project__img .project__img--overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(center, center);
     padding: 024px;
     background-color: rgba(33, 150, 243, 0.9);
     width: 100%;

@@ -14,9 +14,7 @@
     margin-top: 0;
   }
   .team__container {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+    @include container;
   }
 
   .team__list {
@@ -40,9 +38,7 @@
   }
 
   .social__icons .icons__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex(center, center);
     border-radius: 25px;
     height: 44px;
     width: 44px;
